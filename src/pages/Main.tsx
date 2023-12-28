@@ -30,7 +30,7 @@ const Main = () => {
         <img
           id="hangman-img"
           className={wonGame ? 'jumping-man' : ''}
-          src={`/hangman/${wonGame ? 'winner' : incorrectGuesses}.png`}
+          src={`./hangman-${wonGame ? 'winner' : incorrectGuesses}.png`}
         />
         <PhraseContainer />
       </div>
