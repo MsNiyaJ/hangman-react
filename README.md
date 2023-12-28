@@ -5,5 +5,5 @@ Hangman is a game that allows you to click on letters to guess the phrase. Guess
 ## Tools
 
 - Vite + React and TypeScript
-- Composition API
+- Context API
 - SASS
