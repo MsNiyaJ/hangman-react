@@ -28,7 +28,6 @@ export class Game {
 
     // Keep fetching a new phrase if we got the same one as before
     while (previousPhrase?.value === newPhrase.value) {
-      // console.info('Fetched the same phrase as before! Fetching another...');
       newPhrase = this.getRandomPhrase();
 
       if (previousPhrase?.value !== newPhrase.value) {
